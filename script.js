@@ -28,8 +28,6 @@ $(document).ready(function () {
     $(".subNav1").slideUp();
   });
 
-  var display = $(".subNav1").css("display");
-
   $("div").on("click", function () {
     $(".subNav1").slideUp();
     $(".subNav2").slideUp();
@@ -41,17 +39,20 @@ $(document).ready(function () {
     $(".accessories, .weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
     });
 
+function fadeOut(e) {
+  $(e).stop(true).fadeTo(600, 0.2)
+}
 
-  $(".accessories").hover(function () {
+    $(".accessories").hover(function () {
       $(".weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
       }, function () {
       $(".weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
       });
 
-    $(".weding").hover(function () {
-      $(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
-      }, function () {
-      $(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
+    $(".weding").hover(
+      function () {$(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
+    }, 
+      function () {$(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
       }
     );
 

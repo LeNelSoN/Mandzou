@@ -291,69 +291,12 @@ p{
     color: #000;
 }
 /* ------------------------------------------------------------------ */
-/* grille photo de produit */
-.grid{
-    width: 95%;
-    height: 100%;
-    margin: 3%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.grid--title{
-    margin: 0 0 2vw 0;
-}
-.grid--text{
-    margin: 0 1vw 3vw 1vw;
-    text-align: center;
-}
-.grid--container{
-    width: 100%;
-    height: 90vw;
-    margin: 4vw;
-    object-fit: fill;
-    display: grid; 
-    gap: 1% 1%;
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
-    grid-template-areas: 
-      "photo1 photo1 photo2"
-      "photo3 photo4 photo5"; 
-}
-.grid--container__alt{
-    grid-template-areas: 
-    "photo1 photo2 photo2"
-    "photo3 photo4 photo5"; 
-}
-.photo1 > img{
-    width: 90%;
-    margin: 4vw 0 0 3vw;
-} 
-.photo2 > img, .photo3 > img, .photo4 > img, .photo5 > img{
-    width: 100%;
-}
-.photo1{ 
-    grid-area: photo1; 
-}
-.photo2{ 
-    grid-area: photo2; 
-}
-.photo3{ 
-    grid-area: photo3; 
-}
-.photo4{ 
-    grid-area: photo4; 
-}
-.photo5{ 
-    grid-area: photo5; 
-}
-/* ------------------------------------------------------------------ */
 /* bouton de retour haut de page */
 #retour{
     background-color: #F5EBAB;
-    margin: 2vw 2vw 2vw 85vw;
-    height: 3vw;
-    width: 12vw;
+    margin: 2vw 2vw 2vw auto;
+    height: 35px;
+    width: 175px;
     display: flex;
     justify-content: center;
     align-items: center;
