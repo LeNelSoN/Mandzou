@@ -34,7 +34,7 @@ $(document).ready(function () {
   });
 
   $(".subNav1, .subNav2").hover(function () {
-    $(".accessories, .weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
+    $(".accessories, .weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.4);
     }, function () {
     $(".accessories, .weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
     });
@@ -44,34 +44,34 @@ function fadeOut(e) {
 }
 
     $(".accessories").hover(function () {
-      $(".weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
+      $(".weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.4);
       }, function () {
       $(".weding, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
       });
 
     $(".weding").hover(
-      function () {$(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
+      function () {$(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 0.4);
     }, 
       function () {$(".accessories, .costume, .show, .propos, .all").stop(true).fadeTo(600, 1);
       }
     );
 
     $(".costume").hover(function () {
-      $(".weding, .accessories, .show, .propos, .all").stop(true).fadeTo(600, 0.2);
+      $(".weding, .accessories, .show, .propos, .all").stop(true).fadeTo(600, 0.4);
       }, function () {
       $(".weding, .accessories, .show, .propos, .all").stop(true).fadeTo(600, 1);
       }
     );
 
     $(".show").hover(function () {
-      $(".weding, .costume, .accessories, .propos, .all").stop(true).fadeTo(600, 0.2);
+      $(".weding, .costume, .accessories, .propos, .all").stop(true).fadeTo(600, 0.4);
       }, function () {
       $(".weding, .costume, .accessories, .propos, .all").stop(true).fadeTo(600, 1);
       }
     );
 
     $(".propos").hover(function () {
-      $(".weding, .costume, .show, .accessories, .all").stop(true).fadeTo(600, 0.2);
+      $(".weding, .costume, .show, .accessories, .all").stop(true).fadeTo(600, 0.4);
       }, function () {
       $(".weding, .costume, .show, .accessories, .all").stop(true).fadeTo(600, 1);
       }

@@ -1,10 +1,25 @@
-html{
-    scroll-behavior: smooth;
-}
+
 #burger, #close{
     display: none;
 }
+.dark, .dark h2{
+background-color: #231F1D;
+color: #F5EBAB;
+}
+.dark #retour{
+    color: #231F1D;
+}
+.cabaret{
+    background-color: #130101;
+    color: #F5EBAB;
 
+}
+.cabaret #retour{
+    color: #231F1D;
+}
+.cabaret h2{
+    color: #F5EBAB;
+}
 .wedding--banner{
     background: url("content/Photo/Mariage 2.jpg") no-repeat;
     background-size: cover;
@@ -66,6 +81,160 @@ ul{
 a{
     text-decoration: none;
 }
+/*Costume*/
+.article--banner{
+    width: 100%;
+    height: 45vw;
+    margin: 5vw 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.75;
+}
+.article--details{
+    height: 60vw;
+    margin: 5vw 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.article__details--alt{
+    flex-direction: row-reverse;
+}
+.article--details img {
+    margin: 2vw;
+    box-shadow: #231F1D94 10px 25px 20px;
+}
+.article--details div{
+    display: flex;
+    height: 20vw;
+    margin: 1vw 1vw 0 1vw;
+}
+.article--details > div{
+    display: flex;
+    flex-direction: column;
+}
+.article--details div img{
+    margin: 0;
+    height: 100%;
+}
+.article--details p{
+    width: 40%;
+    margin: 2vw 3vw;
+    text-align: justify;
+    line-height: 2.2vw;
+}
+/*-------------------------------------------------------------------*/
+/* Page nymphes */
+
+/* fée Bleu*/
+.feeBleu__bckgrnd--1{
+    background-image: url("content/Nymphe/LaFéeBleue1.jpg");
+    background-size: auto;
+    background-position: center 15%;
+}
+.feeBleu__bckgrnd--2{
+    background-image: url("content/Nymphe/LaFéeBleue2.jpg");
+    background-size: auto;
+}
+/* Denïtza le Feu Follet de L'Hiver */
+.feuFollet__bckgrnd--1{
+    background-image: url("content/Nymphe/2017 Denïtza le Feu Follet de l_Hiver (16).jpg");
+    background-size: auto;
+    background-position: center 15%;
+}
+.feuFollet__bckgrnd--2{
+    background-image: url("content/Nymphe/2017 Denïtza le Feu Follet de l_Hiver (17).jpg");
+    background-size: auto;
+}
+/* Priyanka */
+.Priyanka__bckgrnd--1{
+    background-image: url("content/Nymphe/Priyanka_3.jpg");
+    background-size: auto;
+    background-position: center 45%;
+}
+.Priyanka__bckgrnd--2{
+    background-image: url("content/Nymphe/Priyanka_5.jpg");
+    background-size: auto;
+}
+/* Nümia */
+.Numia__bckgrnd--1{
+    background-image: url("content/Nymphe/2020 06 Nümia _ le rayonnement de Litha  (7).jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+.Numia__bckgrnd--2{
+    background-image: url("content/Nymphe/2020 06 Nümia _ le rayonnement de Litha  (8).jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+/* Songe Givrée */
+.songe__bckgrnd--1{
+    background-image: url("content/Nymphe/Mandzou 2020 Songe Givrées (26).jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+.songe__bckgrnd--2{
+    background-image: url("content/Nymphe/Mandzou 2020 Songe Givrées (27).jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+/* Nymphe */
+.Nymphe__bckgrnd--1{
+    background-image: url("content/Nymphe/Mandzou 2013 Nymphe (9).jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+.Nymphe__bckgrnd--2{
+    background-image: url("content/Nymphe/Mandzou 2013 Nymphe (10).jpg");
+    background-size: cover;
+}
+/* Idunna */
+.idunna__bckgrnd--1{
+    background-image: url("content/Nymphe/Mandzou 2021 05 13 Idunna l_aura du printemps (32).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.idunna__bckgrnd--2{
+    background-image: url("content/Nymphe/Mandzou 2021 05 13 Idunna l_aura du printemps (55).jpg");
+    background-size: cover;
+    background-position: center top;
+}
+/* ------------------------------------------------------------------ */
+
+/* dolls house */
+.dolls__bckgrnd--1{
+    background-image: url("content/Cabaret/2021 02 Dolls House (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.dolls__bckgrnd--2{
+    background-image: url("content/Cabaret/2021 02 Dolls House (4).jpg");
+    background-size: cover;
+    background-position: center top;
+}
+.master__bckgrnd--1{
+    background-image: url("content/Cabaret/2021 03 La Voix du Maitre (58).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.master__bckgrnd--2{
+    background-image: url("content/Cabaret/2021 03 La Voix du Maitre (59).jpg");
+    background-size: cover;
+    background-position: center top;
+}
+.phoenix__bckgrnd--1{
+    background-image: url("content/Cabaret/Mandzou 2014 04 Le Phoenix (5).jpg");
+    background-size: cover;
+    background-position: center 60%;
+}
+.phoenix__bckgrnd--2{
+    background-image: url("content/Cabaret/Mandzou 2014 04 Le Phoenix (5).jpg");
+    background-size: cover;
+    background-position: center top;
+}
+/* ------------------------------------------------------------------ */
+
+
 /* 404 */
 /* ------------------------------------------------------------------ */
 ._404{
@@ -206,13 +375,16 @@ p{
 }
 @keyframes fondu {
     0%{background: url(content/Corporate/Mandzou2021PhotoCorporateAtelierHD01.jpg);
-        background-size: cover;}
+        background-size: cover;
+        background-position: bottom;}
     33%{background: url(content/Corporate/Mandzou2021PhotoCorporateAtelierHD42.jpg);    
         background-size: cover;}
     66%{background: url(content/Corporate/Mandzou2021PhotoCorporateAtelierHD19.jpg);
-        background-size: cover;}
+        background-size: cover;
+        background-position: center;}
     100%{background: url(content/Corporate/Mandzou2021PhotoCorporateAtelierHD14.jpg);
-        background-size: cover;}
+        background-size: cover;
+        background-position: center;}
 }
 /* ------------------------------------------------------------------ */
 /* Call To Action */
